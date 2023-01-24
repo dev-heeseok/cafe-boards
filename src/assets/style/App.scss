@@ -1,3 +1,6 @@
+/** include bootstrap */
+@import "~bootstrap/scss/bootstrap";
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,10 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* UserDefine */
+
+.User-Hide {
+  display: none;
 }
