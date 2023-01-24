@@ -1,44 +1,9 @@
 import React from "react";
 import MenuCard from "../components/MenuCard";
+import { useCardList } from "../hooks/useCardList";
 
 const Home = () => {
-  const cardInfo = [
-    {
-      url: `${process.env.PUBLIC_URL}/images/bread/pexels-karolina-grabowska-4197905.jpg`,
-      title: "Bread",
-      text: "Bread Desc",
-    },
-    {
-      url: `${process.env.PUBLIC_URL}/images/bread/pexels-karolina-grabowska-4197905.jpg`,
-      title: "Bread",
-      text: "Bread Desc",
-    },
-    {
-      url: `${process.env.PUBLIC_URL}/images/bread/pexels-karolina-grabowska-4197905.jpg`,
-      title: "Bread",
-      text: "Bread Desc",
-    },
-    {
-      url: `${process.env.PUBLIC_URL}/images/bread/pexels-karolina-grabowska-4197905.jpg`,
-      title: "Bread",
-      text: "Bread Desc",
-    },
-    {
-      url: `${process.env.PUBLIC_URL}/images/bread/pexels-karolina-grabowska-4197905.jpg`,
-      title: "Bread",
-      text: "Bread Desc",
-    },
-    {
-      url: `${process.env.PUBLIC_URL}/images/bread/pexels-karolina-grabowska-4197905.jpg`,
-      title: "Bread",
-      text: "Bread Desc",
-    },
-    {
-      url: `${process.env.PUBLIC_URL}/images/bread/pexels-karolina-grabowska-4197905.jpg`,
-      title: "Bread",
-      text: "Bread Desc",
-    },
-  ];
+  const cardInfo = useCardList();
 
   return (
     <>
