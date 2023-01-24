@@ -18,7 +18,11 @@ const MainNavbar = () => {
             <Nav.Link as={Link} to={"/cafe-boards/about"}>
               About
             </Nav.Link>
-            <Nav.Link as={Link} to={"/cafe-boards/dashboard"}>
+            <Nav.Link
+              className="User-Hide"
+              as={Link}
+              to={"/cafe-boards/dashboard"}
+            >
               Dashboard
             </Nav.Link>
             <NavDropdown
@@ -38,7 +42,11 @@ const MainNavbar = () => {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link className="User-Hide" as={Link} to={"/cafe-boards/member"}>
+            <Nav.Link
+              className="User-Hide"
+              as={Link}
+              to={"/cafe-boards/member"}
+            >
               Member
             </Nav.Link>
           </Nav>
