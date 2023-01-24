@@ -13,10 +13,10 @@ function App() {
     <div>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route path="cafe-boards" element={<Home />} />
-          <Route path="cafe-boards/menu" element={<Menu />} />
-          <Route path="cafe-boards/about" element={<About />} />
-          <Route path="cafe-boards/dashboard" element={<Dashboard />} />
+          <Route index element={<Home />} />
+          <Route path="menu" element={<Menu />} />
+          <Route path="about" element={<About />} />
+          <Route path="dashboard" element={<Dashboard />} />
           <Route path="*" element={<NoMatch />} />
         </Route>
       </Routes>
