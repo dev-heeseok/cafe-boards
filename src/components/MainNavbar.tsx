@@ -9,16 +9,16 @@ const MainNavbar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/cafe-boards">
           Cafe Dashboard
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link as={Link} to={"/about"}>
+            <Nav.Link as={Link} to={"/cafe-boards/about"}>
               About
             </Nav.Link>
-            <Nav.Link as={Link} to={"/dashboard"}>
+            <Nav.Link as={Link} to={"/cafe-boards/dashboard"}>
               Dashboard
             </Nav.Link>
             <NavDropdown
@@ -38,7 +38,7 @@ const MainNavbar = () => {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link className="User-Hide" as={Link} to={"/member"}>
+            <Nav.Link className="User-Hide" as={Link} to={"/cafe-boards/member"}>
               Member
             </Nav.Link>
           </Nav>
