@@ -13,10 +13,16 @@ const MainNavbar = () => {
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/brand/logo.svg`}
-            className={styles.logo}
-          />
+          <div>
+            <Image
+              src={`${process.env.PUBLIC_URL}/images/brand/only-logo.svg`}
+              className={styles.logo}
+            />
+            <Image
+              src={`${process.env.PUBLIC_URL}/images/brand/only-logo-text.svg`}
+              className={styles["logo-text"]}
+            />
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

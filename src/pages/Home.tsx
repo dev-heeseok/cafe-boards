@@ -1,4 +1,7 @@
 import React from "react";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 import MenuCard from "../components/MenuCard";
 import { useCardList } from "../hooks/useCardList";
 
@@ -8,15 +11,15 @@ const Home = () => {
   return (
     <>
       {/* <h1 className="text-center text-success my-5">Bootstrap Cards</h1> */}
-      <div className="container">
-        <div className="row">
+      <Container>
+        <Row>
           {cardInfo.map((card) => (
-            <div className="col-md-5">
+            <Col className="user-margin" sm="4">
               <MenuCard url={card.url} title={card.title} text={card.text} />
-            </div>
+            </Col>
           ))}
-        </div>
-      </div>
+        </Row>
+      </Container>
     </>
   );
 };
