@@ -3,14 +3,20 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
+import Image from "react-bootstrap/Image";
 import { Link } from "react-router-dom";
+
+import styles from "./MainNavbar.module.scss";
 
 const MainNavbar = () => {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          Cafe Dashboard
+          <Image
+            src={`${process.env.PUBLIC_URL}/images/brand/logo.svg`}
+            className={styles.logo}
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -21,11 +27,7 @@ const MainNavbar = () => {
             <Nav.Link as={Link} to={"/about"}>
               About
             </Nav.Link>
-            <Nav.Link
-              className="User-Hide"
-              as={Link}
-              to={"/dashboard"}
-            >
+            <Nav.Link className="User-Hide" as={Link} to={"/dashboard"}>
               Dashboard
             </Nav.Link>
             <NavDropdown
@@ -45,11 +47,7 @@ const MainNavbar = () => {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link
-              className="User-Hide"
-              as={Link}
-              to={"/member"}
-            >
+            <Nav.Link className="User-Hide" as={Link} to={"/member"}>
               Member
             </Nav.Link>
           </Nav>
