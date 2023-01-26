@@ -14,7 +14,7 @@ const Home = () => {
       <Container>
         <Row>
           {cardInfo.map((card) => (
-            <Col className="user-margin" sm="4">
+            <Col className="mb-3" sm="4">
               <MenuCard url={card.url} title={card.title} text={card.text} />
             </Col>
           ))}

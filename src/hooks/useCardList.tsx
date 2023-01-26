@@ -7,7 +7,7 @@ interface CardInfo {
 export function useCardList(): CardInfo[] {
   return [
     {
-      url: `${process.env.PUBLIC_URL}/images/menu/example-img.jpg`,
+      url: `${process.env.PUBLIC_URL}/images/menu/Financier.svg`,
       title: "휘낭시에",
       text: "플레인 / 헤이즐넛 / 소보루 / 고르곤졸라 / 솔티카라멜 피칸 / 소시지 / 소금초코 / 쑥 / 인절미 / 초코 / 흑임자",
     },
@@ -27,7 +27,7 @@ export function useCardList(): CardInfo[] {
       text: "초코 / 쑥 / 말차 / 인절미",
     },
     {
-      url: `${process.env.PUBLIC_URL}/images/menu/galette-bretonne.jpg`,
+      url: `${process.env.PUBLIC_URL}/images/menu/galette-bretonne.svg`,
       title: "갈레트부르통",
       text: "-",
     },
