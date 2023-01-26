@@ -1,5 +1,4 @@
-/** include bootstrap */
-@import "~bootstrap/scss/bootstrap";
+@import "custom";
 
 .App {
   text-align: center;
@@ -40,12 +39,8 @@
   }
 }
 
-/* UserDefine */
+/** User Define */
 
-.User-Hide {
+.hidden-item {
   display: none;
-}
-
-.user-margin {
-  margin-bottom: 0.75rem;
 }
