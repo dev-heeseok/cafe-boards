@@ -27,7 +27,7 @@ export function useCardList(): CardInfo[] {
       text: "초코 / 쑥 / 말차 / 인절미",
     },
     {
-      url: `${process.env.PUBLIC_URL}/images/menu/example-img.jpg`,
+      url: `${process.env.PUBLIC_URL}/images/menu/galette-bretonne.jpg`,
       title: "갈레트부르통",
       text: "-",
     },
@@ -37,9 +37,14 @@ export function useCardList(): CardInfo[] {
       text: "-",
     },
     {
-      url: `${process.env.PUBLIC_URL}/images/menu/example-img.jpg`,
+      url: `${process.env.PUBLIC_URL}/images/menu/white-cookie.svg`,
       title: "쿠키",
       text: "초코칭크 / 화이트 마카다미아 / 옥수수치즈",
+    },
+    {
+      url: `${process.env.PUBLIC_URL}/images/menu/wine-scone.svg`,
+      title: "스콘",
+      text: "플레인 / 무화과 고르곤졸라",
     },
     {
       url: `${process.env.PUBLIC_URL}/images/menu/example-img.jpg`,
