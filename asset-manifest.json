@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/cafe-boards/static/css/main.3b9f3e95.css",
-    "main.js": "/cafe-boards/static/js/main.f2ccc447.js",
+    "main.css": "/cafe-boards/static/css/main.b6c1e08a.css",
+    "main.js": "/cafe-boards/static/js/main.cabf6f61.js",
     "static/js/787.2284f9a7.chunk.js": "/cafe-boards/static/js/787.2284f9a7.chunk.js",
     "index.html": "/cafe-boards/index.html",
-    "main.3b9f3e95.css.map": "/cafe-boards/static/css/main.3b9f3e95.css.map",
-    "main.f2ccc447.js.map": "/cafe-boards/static/js/main.f2ccc447.js.map",
+    "main.b6c1e08a.css.map": "/cafe-boards/static/css/main.b6c1e08a.css.map",
+    "main.cabf6f61.js.map": "/cafe-boards/static/js/main.cabf6f61.js.map",
     "787.2284f9a7.chunk.js.map": "/cafe-boards/static/js/787.2284f9a7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b9f3e95.css",
-    "static/js/main.f2ccc447.js"
+    "static/css/main.b6c1e08a.css",
+    "static/js/main.cabf6f61.js"
   ]
 }
