@@ -11,8 +11,8 @@ const MenuCard = ({ url, title, text }: CardProp) => {
   if (!url) return null;
 
   return (
-    <Card>
-      <Card.Img variant="top" src={url} />
+    <Card className="main__menu__card">
+      <Card.Img variant="top" src={url} className="main__menu__card-img" />
       <Card.Body>
         <Card.Title>{title}</Card.Title>
         <Card.Text>{text}</Card.Text>

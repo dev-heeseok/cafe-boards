@@ -1,11 +1,11 @@
 import React from "react";
-import MainMenu from "./MainMenu";
+import MainNav from "./MainNav";
 import styles from "./Header.module.scss";
 
 const Header = () => {
   return (
     <div className={styles["layout-padding"]}>
-      <MainMenu />
+      <MainNav />
     </div>
   );
 };

@@ -1,0 +1,14 @@
+// custom bootstrap
+// $theme-colors: (
+//     "info": tomato,
+//     "danger": teal
+// );
+
+// import bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+// font
+@import "../font/font";
+
+// custom
+@import "../sample/dev";

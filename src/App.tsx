@@ -1,5 +1,6 @@
 import React from "react";
-import "./assets/style/App.scss";
+import "./assets/sass/page/App.scss";
+
 import { Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
