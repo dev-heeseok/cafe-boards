@@ -1,0 +1,20 @@
+@import "./bootstrap";
+
+// development
+@import "./dev/tutorial";
+
+// fonts
+@import "./fonts/font";
+
+// layouts
+@import "./layouts/Layout";
+@import "./layouts/Header";
+@import "./layouts/Footer";
+
+// pages
+@import "./pages/Home";
+@import "./pages/About";
+@import "./pages/Menu";
+
+// components
+@import "./components/ui/NavbarController";

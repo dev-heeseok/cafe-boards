@@ -1,8 +1,8 @@
 import React from "react";
-import "./assets/sass/page/App.scss";
+import "./assets/sass/App.scss";
 
 import { Routes, Route } from "react-router-dom";
-import Layout from "./components/Layout";
+import Layout from "./layouts/Layout";
 import Home from "./pages/Home";
 import Menu from "./pages/Menu";
 import About from "./pages/About";

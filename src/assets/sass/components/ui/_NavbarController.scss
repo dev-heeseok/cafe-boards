@@ -1,0 +1,20 @@
+.header__nav__dev {
+  border: 3px solid black;
+}
+
+.nav__logo {
+  .nav__img {
+    width: 2.5rem;
+    object-fit: contain;
+  }
+
+  .nav__text {
+    width: 4rem;
+    object-fit: contain;
+  }
+}
+@include media-breakpoint-down(sm) {
+  .offcanvas.offcanvas-end {
+    width: 70%;
+  }
+}

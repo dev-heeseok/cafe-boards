@@ -1,11 +1,11 @@
 import React from "react";
-import MenuCardList from "../components/MenuCardList";
+import MenuCardList from "../components/ui/MenuCardList";
 
 const Home = () => {
   return (
-    <>
-      <MenuCardList />{" "}
-    </>
+    <div className="home__container pt-2">
+      <MenuCardList />
+    </div>
   );
 };
 
