@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cafe-boards/static/css/main.c8a998be.css",
-    "main.js": "/cafe-boards/static/js/main.737f86a0.js",
+    "main.css": "/cafe-boards/static/css/main.89f6ea46.css",
+    "main.js": "/cafe-boards/static/js/main.576c39a4.js",
     "static/media/NotoSansKR-Black.otf": "/cafe-boards/static/media/NotoSansKR-Black.dba005b6b1bed712b472.otf",
     "static/media/NotoSansKR-Bold.otf": "/cafe-boards/static/media/NotoSansKR-Bold.c252383c4f70753be0e7.otf",
     "static/media/NotoSansKR-Medium.otf": "/cafe-boards/static/media/NotoSansKR-Medium.56207b5e52841342a21b.otf",
@@ -9,11 +9,11 @@
     "static/media/NotoSansKR-Light.otf": "/cafe-boards/static/media/NotoSansKR-Light.636ff9b51e826a733c3d.otf",
     "static/media/NotoSansKR-Thin.otf": "/cafe-boards/static/media/NotoSansKR-Thin.a3e74b5ef0ed5ab193f5.otf",
     "index.html": "/cafe-boards/index.html",
-    "main.c8a998be.css.map": "/cafe-boards/static/css/main.c8a998be.css.map",
-    "main.737f86a0.js.map": "/cafe-boards/static/js/main.737f86a0.js.map"
+    "main.89f6ea46.css.map": "/cafe-boards/static/css/main.89f6ea46.css.map",
+    "main.576c39a4.js.map": "/cafe-boards/static/js/main.576c39a4.js.map"
   },
   "entrypoints": [
-    "static/css/main.c8a998be.css",
-    "static/js/main.737f86a0.js"
+    "static/css/main.89f6ea46.css",
+    "static/js/main.576c39a4.js"
   ]
 }
