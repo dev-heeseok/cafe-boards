@@ -1,8 +1,8 @@
 import React from "react";
 import MenuCard from "./MenuCard";
 import { useCardList } from "../../hooks/useCardList";
-import Container from "react-bootstrap/esm/Container";
-import Row from "react-bootstrap/esm/Row";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
 
 const MenuCardList = () => {
   const cardList = useCardList();

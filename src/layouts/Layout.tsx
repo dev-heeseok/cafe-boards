@@ -1,7 +1,7 @@
 import React from "react";
 import { Outlet } from "react-router-dom";
-import { Container } from "react-bootstrap";
-import Row from "react-bootstrap/esm/Row";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
 import NavbarController from "../components/ui/NavbarController";
 import Footer from "./Footer";
 
