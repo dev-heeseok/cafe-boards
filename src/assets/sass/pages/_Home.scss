@@ -1,10 +1,5 @@
-.home__border__dev {
-  border: 3px solid black;
-}
+@import "../utilities/variables";
 
 .home__container {
-  margin-top: 4.5rem;
-
-  .home__wrap {
-  }
+  max-width: 100%;
 }

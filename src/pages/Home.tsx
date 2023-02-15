@@ -3,8 +3,10 @@ import MenuCardList from "../components/ui/MenuCardList";
 
 const Home = () => {
   return (
-    <div className="home__container pt-2">
-      <MenuCardList />
+    <div className="d-flex flex-column align-items-center">
+      <div className="home__container">
+        <MenuCardList />
+      </div>
     </div>
   );
 };

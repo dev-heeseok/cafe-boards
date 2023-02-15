@@ -1,0 +1,12 @@
+@import "../utilities/variables";
+
+.layout__container {
+  margin: 0;
+  padding: 0;
+
+  .layout__wrap {
+    padding-top: $frame__header__height;
+    min-width: $frame__min__width;
+    width: 100%;
+  }
+}

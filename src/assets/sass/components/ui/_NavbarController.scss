@@ -1,8 +1,8 @@
-.header__nav__dev {
-  border: 3px solid black;
-}
+@import "../../utilities/variables";
 
 .nav__logo {
+  min-width: $frame__min__width;
+
   .nav__img {
     width: 2.5rem;
     object-fit: contain;
